@@ -17,7 +17,7 @@
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #bd5d38;
+  --bs-orange: #37f1ee;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -420,7 +420,7 @@ a {
 }
 
 a:hover {
-  color: #974a2d;
+  color: #37f1ee;
 }
 
 a:not([href]):not([class]),
