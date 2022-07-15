@@ -7,7 +7,10 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Resume - Start Bootstrap Theme</title>
+    <!-- Favicons)-->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- BootStrap JQuery-->
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -15,6 +18,8 @@
         type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -39,6 +44,16 @@
             </ul>
         </div>
     </nav>
+    <div class="toast fade show toastHeader flex-shrink-0" id="myToast">
+        <div class="toast-header bg-primary text-light">
+            <strong class="me-auto"><i class="bi-gift-fill"></i>Welcome and thank you for stopping by!</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body text-center">
+            Please feel free to contact me regarding any further questions or details.
+        </div>
+    </div>
+
     <!-- Page Content-->
     <div class="container-fluid p-0">
         <!-- About-->
@@ -48,7 +63,7 @@
                     Wayne
                     <span class="richardson">Richardson</span>
                 </h1>
-                <div class="subheading text-wrapper mb-5">
+                <div class="subheading mb-5">
                     453 19th TER NE BIRMINGHAM, AL 35215 · (205)240-1453 ·
                     <a href="mr.richardson718@gmail.com">mr.richardson718@gmail.com</a>
                 </div>
@@ -60,7 +75,6 @@
                     a management level position in a world class company. I would also like to diversify my skills with
                     the experience gained through training and self-motivation.
                 </p>
-
                 <div class="social-icons">
                     <a class="social-icon" href="https://linkedin.com/in/wayne-richardson-7b2723179"><i
                             class="fab fa-linkedin-in"></i></a>
@@ -68,6 +82,8 @@
                 </div>
             </div>
         </section>
+
+
         <hr class="m-0" />
         <!-- Experience-->
         <section class="resume-section" id="experience">
@@ -229,7 +245,7 @@
                 </ul>
                 <div class="subheading mb-3">Workflow</div>
                 <ul class="fa-ul mb-0">
-                    <li>
+                    <li class="workflow">
                         <span class="fa-li"><i class="fas fa-check"></i></span>
                         SAP/ERP Proficient
                     </li>
@@ -275,6 +291,15 @@
                         <div class="subheading mb-3">Career Technical Education Program</div>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">August 2000 - May 2004</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">365 Careers</h3>
+                        <div class="subheading mb-3">Excel Essentials: The Complete Excel Series - Level 1, 2 &
+                            3
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">November 2013 - February 2014</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
@@ -361,13 +386,21 @@
         </section>
         -->
     </div>
+
     <footer class="page-footer text-center text-wrapper">
         <small>2022 &copy; Wayne Richardson</small>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="../Resume/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
