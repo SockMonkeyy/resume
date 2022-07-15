@@ -96,8 +96,8 @@ body {
 
 .toastHeader {
   position: relative;
-  top: 5rem;
-  left: 1.5rem;
+  top: 7rem;
+  margin: 0 auto;
 }
 
 .me-auto {
